@@ -14,6 +14,8 @@ We implemented regular expression based approach, xpath based approach and autom
     * Example: `run-extraction.py A`
 * When the script is run extraction results will be outputed to standard output and written to the appropriate mode foldier in the `results` foldier. For modes A and B we generate a .json object of extracted data fields. For mode C we generate a .txt file with aligned data items from two similar pages
 
+NOTE: Existing files in `results` are owerwritten each run. You can also delete them and they will be regenerated when script is run
+
 
 Required libraries to run:
 * python 3.6
