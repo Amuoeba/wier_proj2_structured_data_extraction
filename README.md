@@ -12,6 +12,7 @@ We implemented regular expression based approach, xpath based approach and autom
 * make `implementation-extraction` your working directory
 * from there run `run-extraction.py mode` where mode is either A, B or C
     * Example: `run-extraction.py A`
+* When the script is run extraction results will be outputed to standard output and written to the appropriate mode foldier in the `results` foldier. For modes A and B we generate a .json object of extracted data fields. For mode C we generate a .txt file with aligned data items from two similar pages
 
 
 Required libraries to run:
