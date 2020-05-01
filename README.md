@@ -11,6 +11,7 @@ We implemented regular expression based approach, xpath based approach and autom
     * C: Automatic extraction
 * make `implementation-extraction` your working directory
 * from there run `run-extraction.py mode` where mode is either A, B or C
+    * Example: `run-extraction.py A`
 
 
 Required libraries to run:
